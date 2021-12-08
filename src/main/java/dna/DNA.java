@@ -11,8 +11,8 @@ public class DNA {
     private final double Guanine = 151.128;
     private final double Thymine = 125.107;
     private final double junk = 100.000;
-    public DNA(){
-
+    public DNA(String sequence){
+        this.sequence = sequence;
     }
     public static void main(String[] args){
         DNA dna1 = new DNA();
