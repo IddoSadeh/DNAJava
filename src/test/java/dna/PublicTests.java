@@ -18,6 +18,7 @@ public class PublicTests {
     public void test2_create_checkProtein() {
         DNA dna2 = new DNA("ATGCCAACATGGATGCCCGATAT++GGATTG+A!");
         assertTrue(dna2.isProtein());
+
     }
 
     @Test(expected=IllegalArgumentException.class)
