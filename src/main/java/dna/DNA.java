@@ -14,8 +14,14 @@ public class DNA {
     public DNA(String sequence){
         this.sequence = sequence;
     }
+
+    public String getSequence() {
+        return sequence;
+    }
+
     public static void main(String[] args){
-        DNA dna1 = new DNA();
+        DNA dna1 = new DNA("ATGATT");
+        System.out.println(dna1.getSequence());
 
     }
 }
